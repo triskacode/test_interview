@@ -45,5 +45,7 @@ cd laravelDasar
 composer install
 yarn install
 yarn dev
+php artisan migrate:fresh --seed
 php artisan serve
+
 ```
